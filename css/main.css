@@ -1,0 +1,26 @@
+h1{
+	color: red;
+	font-size: 90px;
+}
+
+h2{
+	color: green;
+	font-size: 40px;
+}
+
+span{
+	font-style: italic;
+}
+
+h1 span{
+	color: black;
+	background-color: black;
+}
+
+#first{
+	font-size: 150px;
+}
+
+.small{
+	font-size: 12px;
+}
