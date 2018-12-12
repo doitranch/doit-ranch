@@ -3,5 +3,6 @@
     width: 100vw;
 	color:blue;
 	font-size: 100px;
-	font-weight: bold;
+	font-weight: normal;
+	font-style: italic;
 }
