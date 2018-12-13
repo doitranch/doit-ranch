@@ -1,8 +1,66 @@
-.headerTitle
-{
-    width: 100vw;
-	color:blue;
-	font-size: 100px;
-	font-weight: normal;
-	font-style: italic;
+html, body{
+	background-image: url("images/do-itcan.PNG");
+	background-repeat: repeat;
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+
+header{
+	background-color: #0000CC;
+	padding: 40px;
+	text-align: center;
+}
+
+h1{
+	font-size: 90px;
+	color: white;
+	text-shadow: 0 4px 20px black;
+}
+
+header img{
+	border-radius: 183px;
+	width: 300px;
+	border: 20px solid #CC0000;
+	box-shadow: 0 10px 20px black;
+}
+
+.headerBack{
+	border-radius: 5px;
+	/*background-color: #ffffff;*/
+}
+
+.content{
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+ul{
+	list-style: none;
+	padding 0;
+	margin 0;
+}
+
+a{
+	color: red;
+	text-decoration: none;
+}
+
+footer{
+	padding: 2px 20px;
+	background-color: #999999;
+	border-radius: 100px;
+}
+
+ul{
+	text-align: center;;
+}
+
+footer ul li{
+	display: inline-block;
+	margin: 0 5px;
+}
+
+ol{
+	padding: 20px;
 }
