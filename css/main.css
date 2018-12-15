@@ -24,13 +24,8 @@ header img{
 	box-shadow: 0 10px 20px black;
 }
 
-.headerBack{
-	border-radius: 5px;
-	/*background-color: #ffffff;*/
-}
-
 .content{
-	max-width: 400px;
+	max-width: 600px;
 	margin: 0 auto;
 	padding: 0 20px;
 }
@@ -42,6 +37,30 @@ header img{
 	width: 100px;
 	height: 100px;
 	transition: background-color 1s;
+}
+
+#sl{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.button {
+    top: 0%;
+    left: 0%;
+    background-color: #0bc7e1;
+    border: 10px ridge #62ecff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 66px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: border 1s;
+}
+
+.button.Click {
+    border: 1px ridge #ffffff;
 }
 
 #red{
@@ -56,6 +75,15 @@ header img{
 	width: 400px;
 	height: 345px;
 	border: 20px solid #0099ff;
+}
+
+#imgA{
+    height: 50%;
+    width: 50%;
+}
+
+.resizeFont {
+    font-size: 32px;
 }
 
 .cool.red{
@@ -94,6 +122,7 @@ footer ul li{
 	margin: 0 auto;
 }
 
-ol{
-	padding: 20px;
+ol {
+    max-width: 600px;
+    padding: 0 20px;
 }
